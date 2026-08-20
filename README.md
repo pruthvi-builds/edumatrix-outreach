@@ -1,3 +1,8 @@
+**Live demo:** N/A — internal automation tool (CLI/scripts, no UI)
+**Tech stack:** Node.js, Google OAuth 2.0, Gmail API, Google Sheets API, Google Cloud service accounts
+
+Internal B2B outreach automation: reads leads from a Google Sheet, sends personalized initial and follow-up emails through Gmail via OAuth, tracks send state back to the Sheet, and stops automatically the moment a lead replies. Includes rate-limiting, dedup, and a gradual send-volume ramp to protect sender reputation.
+
 # EduMatrix Outreach Automation
 
 Internal B2B outreach automation for EduMatrix Academic Solutions. Reads leads
