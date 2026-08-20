@@ -1,0 +1,20 @@
+{
+  "name": "edumatrix-outreach",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Internal B2B email outreach automation for EduMatrix Academic Solutions",
+  "type": "module",
+  "scripts": {
+    "auth-gmail": "node src/authGmail.js",
+    "start": "node src/index.js",
+    "run:initial": "node src/index.js initial",
+    "run:followups": "node src/index.js followups",
+    "run:replies": "node src/index.js replies",
+    "run:all": "node src/index.js all"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.14.1",
+    "googleapis": "^140.0.1"
+  }
+}
